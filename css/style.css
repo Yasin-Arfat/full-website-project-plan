@@ -1,0 +1,198 @@
+.logo{
+    width: 20%;
+    float: left;
+    /* display: inline-block; */
+}
+.menu{
+    width: 80%;
+    float: right;
+    /* display: inline-block; */
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+
+}
+.menu ul li:not(:last-child) a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    /* padding: 20px 30px 0; */
+    display: inline-block;
+    margin: 20px 27px 0;
+    position: relative;
+
+} 
+.menu ul li:not(:last-child) a::after{
+    content:'';
+    width:0;
+    height: 3px;
+    position: absolute;
+    background-color:#ff0566;
+    left:50%;
+    top: 110%;
+    /* transition: all .3s; */
+    transform: translateX(-50%);
+    /* opacity: 0; */
+} 
+.menu ul li:not(:last-child):hover a::after{
+    background-color:#ff0566;
+    /* opacity: 1; */
+    width: 100%;
+}
+.menu ul li:last-child a{
+    font-weight:700;
+    font-size: 13px;
+    padding: 15px 25px;
+    color: #fff;
+    background-image: linear-gradient(90deg, #fa7236,#ff0566);
+    border-radius: 30px;
+    margin-top: 10px;
+    display: inline-block;
+    /* transition: all .3s; */
+}
+.menu ul li:last-child:hover a{
+    background-image: linear-gradient(90deg, #ff0566,#fa7236);
+}
+.menu ul li:last-child a img{
+    height:10px;
+    margin-left: 5px;
+}
+.text-form h2{
+    background-image: linear-gradient(90deg,#cf1f40,#ff5d09);
+    font-size:60px ;
+    font-weight: 100;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 45px;
+
+}
+.text-form p{
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 180px;
+    margin-bottom: 140px;
+}
+.header-content{
+    padding: 130px 0;
+}
+.price{
+    margin-top: 25px;
+}
+.price span:not(:last-child){
+    color: #fff;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight:400;
+}
+.price a{
+    font-size:16px;
+    font-weight: 400;
+    color: #e73948;
+    text-decoration:1px dotted red;
+    border-bottom: 1px dotted;
+}
+.price a:hover{
+    color: #fa6c39;
+}
+.image-position{
+    position: relative;
+}
+.image-position img{
+    position: absolute;
+    width:150%;
+    left:-138px;
+    top:62px;
+}
+.price{
+    background-color: #09121b;
+    /* padding: 0 0 90px 0; */
+}
+.price .single-content{
+    padding: 35px 35px 50px 50px;
+    background-image: linear-gradient(to right bottom, #049ec0,#04d4d5);
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+.price .single-content .upper-side{
+    display: flex;
+}
+.price .single-content .upper-side .image,
+.price .single-content .upper-side .text{
+    width: 50%;
+}
+.price .single-content .upper-side .image img{
+   margin-left:-133px;
+
+}
+.price .single-content .upper-side .text h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 28px;
+}
+.price .single-content .upper-side .text p{
+    color: #fff;
+    font-size:14px;
+    font-weight: 400;
+    margin-top:10px;
+}
+.price .single-content .upper-side .text  h4{
+    color: #fff;
+    font-size:50px;
+    font-weight:100;
+    margin-top:40px;
+}
+.price .single-content .upper-side .text span{
+    color: #fff;
+    font-size:13px;
+    font-weight:400;
+    /* margin-top:40px;  */
+}
+
+.price .single-content .lower-side ul{
+    min-height: 180px;
+}
+.price .single-content .lower-side ul li{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 30px;
+}
+.price .single-content .lower-side .btn{
+    margin-top: 25px;
+}
+.price .single-content .lower-side .btn a{
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 50px;
+    border:2px solid #fff;
+    transition: all .7s;
+    font-weight:700;
+   
+}
+.price .single-content .lower-side .btn a:hover{
+    color: #fc3d4d;
+    /* padding: 15px 35px; */
+    /* border-radius: 50px; */
+    border:2px solid transparent;
+    background-color: #fff;
+    font-weight:700;
+}
+.price .color2{
+    background-image: linear-gradient(to right bottom, #fa7236,#ff0f62);
+
+}
+.price .color3{
+    background-image: linear-gradient(to right bottom, #b35fcc,#5c27fe);
+
+}
+.price .color4{
+    background-image: linear-gradient(to right bottom, #ffbd44,#ff7b02);
+
+}
